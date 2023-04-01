@@ -1,0 +1,45 @@
+body {
+  background-color: aliceblue;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  width: 60vw;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+
+input,select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+input[type="checkbox"] {
+  width: 17px;
+  height: 17px;
+}
+
+input[type="submit"] {
+  background-color: #18a4ce;
+  color: white;
+}
+
+.term {
+  margin-top: 200px;
+}
+
+.error{
+  color: red;
+}

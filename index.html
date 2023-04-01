@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>registration form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form action="" name="form" onsubmit="return check();">
+        <label for="name">NAME :</label>
+        <span class="error"></span>
+        <input type="text" for="name" name="name" placeholder="FULL NAME">
+        <div class="gender">
+            <label for="gender" >GENDER :</label>
+            <select name="gender">
+                <option value="male">male</option>
+                <option value="female">female</option>
+                <option value="other">other</option>
+            </select>
+        </div>
+        <label for="dob">DATE OF BIRTH :</label>
+        <input type="date" name="dob" for="dob" required>
+        <label for="phone">PHONE NO :</label>
+        <span class="error"></span>
+        <input type="number" for="phone" name="phone" placeholder="9988776655">
+        
+        <label for="email">EMAIL :</label>
+        <span class="error"></span>
+        <input type="email" for="email" name="email" placeholder="demo@demo.com">
+        <label for="add">ADDRESS :</label>
+        <span class="error"></span>
+        <input type="text" for="add" name="add" placeholder="Address">
+        <div class="term">
+            <input type="checkbox" for="term" name="term">
+            <label for="term">I ACCEPT ALL THE TERM & CONDITIONS</label>
+        </div>
+        <input type="submit" value="submit">
+    </form>
+    <script defer src="script.js"></script>
+</body>
+
+</html>
